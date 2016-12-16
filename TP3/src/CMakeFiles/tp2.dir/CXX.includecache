@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tp-home004/imaslia/Downloads/code/src/rectangle.cpp
+rectangle.hpp
+-
+utility
+-
+
+/home/tp-home004/imaslia/Downloads/code/src/square.cpp
+square.hpp
+-
+cassert
+-
+
+include/rectangle.hpp
+ostream
+-
+
+include/square.hpp
+ostream
+-
+rectangle.hpp
+-
+
